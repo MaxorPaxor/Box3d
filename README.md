@@ -21,6 +21,18 @@ D435i, D455 and Lidar L515.
 </p>
 <h6 align="center">Calculating the box dimensions</h6>
 
+### Performance
+#### Measurements
+Calculated Dimensions [mm] | Real Dimensions [mm] | Error (%)
+:---:|:---:|:---:
+89.8 | 95 | 5.5
+408.7 | 415 | 1.5
+282.9 | 290 | 2.4
+
+#### Repetitiveness
+The algorithm right now is not robust enough to handle changes in
+distances, human selecting variance (different operators) etc
+
 ## References
 Based on RealSense SDK:
 https://github.com/IntelRealSense/librealsense
@@ -39,3 +51,5 @@ Open3D lib for debugging and visualing:
 http://www.open3d.org/
 
 pip3 install open3d
+
+## Algo Review
