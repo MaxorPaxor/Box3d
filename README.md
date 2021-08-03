@@ -2,10 +2,24 @@
 
 ## Overview
 
+An experimental tool whos purpose is to calculate any cuboid-like object
+dimensions. This repo focuses on the use of RealSense Stereo cameras:
+D435i, D455 and Lidar L515.
+
 <p align="center">
 <img src="images/1.png" >
 </p>
-<h5 align="center">Testing on high wind day</h5>
+<h6 align="center">Object RGB and depth map</h6>
+
+<p align="center">
+<img src="images/2.png" >
+</p>
+<h6 align="center">Painting the object with the mouse</h6>
+
+<p align="center">
+<img src="images/3.png" >
+</p>
+<h6 align="center">Calculating the box dimensions</h6>
 
 ## References
 Based on RealSense SDK:
