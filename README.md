@@ -95,4 +95,3 @@ neighbourhood pixels
 - `calc_plane(points)` - Calculates plane using least squares
 - `calc_plane_ransac` - Calculates plane using `calc_plane` and RANSAC
 - `calc_2plane_inter(plane1, plane2)` - Calculates intersection of two planes (Vector)
-- 
