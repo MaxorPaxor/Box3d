@@ -272,7 +272,7 @@ class Measure:
 
     def calc_plane(self, points):
         """
-        Calculates plane using least quares
+        Calculates plane using least squares
         :param points: list of point dicts {'coords': (x, y), 'dist': dist}
         :return: A, B, C, D -- np(4,1) Ax+ By +Cz +d =0
         """
